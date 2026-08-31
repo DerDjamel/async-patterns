@@ -28,6 +28,7 @@ const fn = serialize(
   })(),
 );
 
+// example to try it
 console.log(await fn());
 console.log(await fn());
 await wait();
